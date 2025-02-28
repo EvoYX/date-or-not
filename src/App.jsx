@@ -97,7 +97,7 @@ export default function Page() {
       {yesPressed ? (
         <>
           <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" />
-          <div className="text-4xl md:text-6xl font-bold my-4">
+          <div className="text-2xl md:text-3xl font-bold my-4">
             Ok Yayyyyy!!!
           </div>
           <div>✨Too Many Plans, Not Enough Time! ✨</div>
