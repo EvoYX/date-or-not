@@ -68,7 +68,7 @@ body {
 .card-container {
   display: flex;
   justify-content: space-between;
-  gap: 1rem;
+  gap: 0.3rem;
 }
 .card-back ul {
   list-style-type: none; /* Remove default list bullets */
