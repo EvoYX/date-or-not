@@ -1,7 +1,7 @@
 import { useState } from "react";
 import lovesvg from "./assets/All You Need Is Love SVG Cut File.svg";
 import lovesvg2 from "./assets/Love In The Air SVG Cut File.svg";
-
+import "./index.css";
 export default function Page() {
   const [noCount, setNoCount] = useState(0);
   const [yesPressed, setYesPressed] = useState(false);
@@ -11,6 +11,61 @@ export default function Page() {
     setNoCount(noCount + 1);
   };
 
+  const CardOption = () => {
+    return (
+      <div className="card-container">
+        <div className="card">
+          <div className="card-inner">
+            <div className="card-front">
+              The Ultimate Movie-Music-Dinner Adventure
+            </div>
+            <div className="card-back">
+              <ul>
+                <li>Captain America: Brave New World @ 4.40pm @Orchard</li>
+                <li>
+                  Listening to Music Busker Jeff Wong @ 7.30pm @ Dhoby Ghaut
+                </li>
+                <li>Dinner @ Plaza Singapura</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div className="card">
+          <div className="card-inner">
+            <div className="card-front">Cats, Games & Samgyetang Date</div>
+            <div className="card-back">
+              <ul>
+                <li>
+                  Mecafegames. Play console games while cuddling adorable cats!
+                </li>
+                <li>
+                  MODU Samgyetang. Treat yourself to Singapore’s first premium
+                  samgyetang
+                </li>
+                <li>Captain America: Brave New World </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div className="card">
+          <div className="card-inner">
+            <div className="card-front">Sanrio Wonderland + Foodie Fun</div>
+            <div className="card-back">
+              <ul>
+                <li>
+                  Step into the magical world of Sanrio @ Rochor (Netflix Room)
+                </li>
+                <li>Dinner or café hopping (we’ll check it out together!)</li>
+                <li>
+                  Tired? Just rest lah! Chill with me, do nothing also can 😆
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  };
   const getNoButtonText = () => {
     const phrases = [
       "No",
@@ -45,6 +100,12 @@ export default function Page() {
           <div className="text-4xl md:text-6xl font-bold my-4">
             Ok Yayyyyy!!!
           </div>
+          <div>✨Too Many Plans, Not Enough Time! ✨</div>
+          <div className="text-4sm md:text-6sm font-bold my-4">
+            Eh, too many stuff wan to do with you liao. Sibei long, so I only
+            short list these 3. Pick one la! 😆 After you choose, text me hor!
+          </div>
+          {CardOption()}
         </>
       ) : (
         <>
@@ -60,8 +121,8 @@ export default function Page() {
             className="h-[230px] rounded-lg shadow-lg"
             src="https://gifdb.com/images/high/cute-Love-bear-roses-ou7zho5oosxnpo6k.gif"
           />
-          <h1 className="text-4xl md:text-6xl my-4 text-center">
-            Will you be my Valentine?
+          <h1 className="text-3xl md:text-3xl my-3 text-center">
+            你很累, 我很懒 … so Saturday’s perfect for us. Still on? 😌
           </h1>
           <div className="flex flex-wrap justify-center gap-2 items-center">
             <button
@@ -80,6 +141,7 @@ export default function Page() {
           </div>
         </>
       )}
+
       <Footer />
     </div>
   );
