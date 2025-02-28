@@ -68,6 +68,7 @@ body {
 .card-container {
   display: flex;
   justify-content: space-between;
+  gap: 1rem;
 }
 .card-back ul {
   list-style-type: none; /* Remove default list bullets */
@@ -77,4 +78,43 @@ body {
 
 .card-back li {
   margin-bottom: 0.5rem; /* Space between items */
+}
+/* Default text styles */
+.text-2xl {
+  font-size: 1.5rem; /* 24px */
+}
+
+.text-3xl {
+  font-size: 1.875rem; /* 30px */
+}
+
+.text-sm {
+  font-size: 0.875rem; /* 14px */
+}
+
+/* Mobile-specific styles */
+@media (max-width: 768px) {
+  /* Smaller cards for mobile */
+  .card {
+    width: 120px; /* Smaller width for mobile */
+    height: 180px; /* Smaller height for mobile */
+  }
+
+  /* Smaller text for mobile */
+  .text-2xl {
+    font-size: 1rem; /* 16px */
+  }
+
+  .text-3xl {
+    font-size: 1.25rem; /* 20px */
+  }
+
+  .text-sm {
+    font-size: 0.75rem; /* 12px */
+  }
+
+  /* Adjust card back text */
+  .card-back li {
+    font-size: 0.7rem; /* Even smaller font size for card back */
+  }
 }

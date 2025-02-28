@@ -21,11 +21,13 @@ export default function Page() {
             </div>
             <div className="card-back">
               <ul>
-                <li>Captain America: Brave New World @ 4.40pm @Orchard</li>
-                <li>
+                <li className="text-xs md:text-sm">
+                  Captain America: Brave New World @ 4.40pm @Orchard
+                </li>
+                <li className="text-xs md:text-sm">
                   Listening to Music Busker Jeff Wong @ 7.30pm @ Dhoby Ghaut
                 </li>
-                <li>Dinner @ Plaza Singapura</li>
+                <li className="text-xs md:text-sm">Dinner @ Plaza Singapura</li>
               </ul>
             </div>
           </div>
@@ -35,14 +37,16 @@ export default function Page() {
             <div className="card-front">Cats, Games & Samgyetang Date</div>
             <div className="card-back">
               <ul>
-                <li>
+                <li className="text-xs md:text-sm">
                   Mecafegames. Play console games while cuddling adorable cats!
                 </li>
-                <li>
+                <li className="text-xs md:text-sm">
                   MODU Samgyetang. Treat yourself to Singapore’s first premium
                   samgyetang
                 </li>
-                <li>Captain America: Brave New World </li>
+                <li className="text-xs md:text-sm">
+                  Captain America: Brave New World{" "}
+                </li>
               </ul>
             </div>
           </div>
@@ -52,11 +56,13 @@ export default function Page() {
             <div className="card-front">Sanrio Wonderland + Foodie Fun</div>
             <div className="card-back">
               <ul>
-                <li>
+                <li className="text-xs md:text-sm">
                   Step into the magical world of Sanrio @ Rochor (Netflix Room)
                 </li>
-                <li>Dinner or café hopping (we’ll check it out together!)</li>
-                <li>
+                <li className="text-xs md:text-sm">
+                  Dinner or café hopping (we’ll check it out together!)
+                </li>
+                <li className="text-xs md:text-sm">
                   Tired? Just rest lah! Chill with me, do nothing also can 😆
                 </li>
               </ul>
@@ -101,7 +107,7 @@ export default function Page() {
             Ok Yayyyyy!!!
           </div>
           <div>✨Too Many Plans, Not Enough Time! ✨</div>
-          <div className="text-4sm md:text-6sm font-bold my-4">
+          <div className="text-xs md:text-sm lg:text-base text-center">
             Eh, too many stuff wan to do with you liao. Sibei long, so I only
             short list these 3. Pick one la! 😆 After you choose, text me hor!
           </div>
