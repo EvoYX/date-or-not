@@ -1,5 +1,3 @@
-![Project Image](https://i.imgur.com/8q884zI.png)
-
 ## 🎁 Features 🎁
 
 - Cute and playful animations
@@ -14,16 +12,14 @@ To get started with this project, follow these steps:
 2. Install the dependencies with `npm/pnpm/bun install`
 3. Start the development server with `npm/pnpm/bun run dev`
 
-Now you're ready to ask the big question!
-
 ## 💕 Made with Love 💕
 
-This project was made with love by [Anish](https://github.com/xeven777). Feel free to use it to ask your own special someone to be your Valentine!
+A simple website to help pick what to do next from a list of fun options.
 
-## 💌 Feedback and Contributions 💌
+---
 
-Feedback and contributions are always welcome! Feel free to open an issue or submit a pull request.
+### **How It Works**
 
-## Happy Valentine's Day! 💘
-
-<img src="https://widgetbite.com/stats/Xeven777" alt="watching_count" />
+1. Browse the options below.
+2. Pick your favorite.
+3. Let me know your choice!
